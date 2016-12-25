@@ -114,7 +114,6 @@
                 </tr>
                 <tr>
                     <td colspan="3">
-
                         <asp:Label ID="Label10" runat="server" Text="is sick that I could consider that a period of absence from duty for working/studying with effect from "></asp:Label>
                         <asp:TextBox ID="txtStartDate" runat="server" Style="border: 0; outline: 0; background: transparent; width: 100px; border-bottom: 1px solid black;" Font-Bold="True" Placeholder="- Start Date -"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtStartDate" ErrorMessage="Please enter the start date." ForeColor="Red">*</asp:RequiredFieldValidator>
