@@ -191,14 +191,13 @@
             </table>
         </div>
         <div class="col-sm-3">
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/MDental/frmCreateMc.aspx" Font-Bold="True" onclick="window.open (this.href, 'popupwindow', 'width=900,height=500, scrollbars, resizable'); return false;"><i class="fa fa-plus-circle fa-lg"></i> Create Medical Certificate</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/MDental/frmCreateMc.aspx" Font-Bold="True" onclick="window.open (this.href, 'popupwindow', 'width=800,height=450, scrollbars, resizable'); return false;"><i class="fa fa-plus-circle fa-lg"></i> Create Medical Certificate</asp:HyperLink>
             <br />
             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/MDental/frmCreateLetter.aspx" Font-Bold="True" onclick="window.open (this.href, 'popupwindow', 'width=1300,height=700, scrollbars, resizable'); return false;"><i class="fa fa-plus-circle fa-lg"></i> Create Reference Letter</asp:HyperLink>
         </div>
     </div>
     <br />
 </asp:Content>
-
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" Runat="Server">
 </asp:Content>
 

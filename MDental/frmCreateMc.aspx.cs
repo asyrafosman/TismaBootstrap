@@ -16,4 +16,9 @@ public partial class MDental_frmCreateMc : System.Web.UI.Page
         lblTime.Text = DateTime.Now.ToString("HH:mm:ss");
         lblDrName.Text = "Dr. Nor'Ashikin Bte Sharif";
     }
+
+    protected void btnPrint_Click(object sender, EventArgs e)
+    {
+        ClientScript.RegisterStartupScript(typeof(Page), "closePage", "window.close();", true);
+    }
 }
